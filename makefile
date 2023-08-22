@@ -21,8 +21,5 @@ memtest: bin/main
 europe_test: bin/main
 	bin/main demo_graphs/europe_graph.txt
 
-bench: bin/main
-	time bin/main demo_graphs/europe_graph.txt
-
 clean:
 	rm -f build/* bin/*
